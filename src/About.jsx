@@ -11,7 +11,7 @@ const About = () => {
         />
       </div>
       <div className="aboutme text-lg">
-        <h1 className="text-7xl mb-6 font-extrabold">
+        <h1 className="text-6xl min-[400px]:text-7xl mb-6 font-extrabold">
           About <span className="text-[#63e]">Me</span>
         </h1>
         <p className="mb-6">

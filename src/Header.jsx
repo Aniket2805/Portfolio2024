@@ -4,6 +4,7 @@ import Typed from "typed.js";
 import { Dialog, Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Formal from "./files/formal.png";
+import Resume from "./files/Resume.pdf";
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const el = React.useRef(null);
@@ -26,8 +27,8 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5 text-4xl">
-            <span className="text-[#63e]">A</span>niket Kumar
+          <a href="#" className="-m-1.5 p-1.5 text-5xl">
+            <span className="text-[#63e]">AK</span>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -41,19 +42,34 @@ export default function Example() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12 text-xl">
-          <a href="#" className="font-semibold leading-6">
+          <a
+            href="#"
+            className="font-semibold leading-6 ease-in duration-200 hover:text-[#63e]"
+          >
             Home
           </a>
-          <a href="#" className="font-semibold leading-6">
+          <a
+            href="#"
+            className="font-semibold leading-6 ease-in duration-200 hover:text-[#63e]"
+          >
             About
           </a>
-          <a href="#" className="font-semibold leading-6">
+          <a
+            href="#"
+            className="font-semibold leading-6 ease-in duration-200 hover:text-[#63e]"
+          >
             Skills
           </a>
-          <a href="#" className="font-semibold leading-6">
+          <a
+            href="#"
+            className="font-semibold leading-6 ease-in duration-200 hover:text-[#63e]"
+          >
             Projects
           </a>
-          <a href="#" className="font-semibold leading-6">
+          <a
+            href="#"
+            className="font-semibold leading-6 ease-in duration-200 hover:text-[#63e]"
+          >
             Contact <span aria-hidden="true">&rarr;</span>
           </a>
         </Popover.Group>
@@ -116,7 +132,9 @@ export default function Example() {
         <div className="text-white">
           <div className="mb-6">
             <h3 className="text-4xl mb-2">Hello, It's Me</h3>
-            <p className="text-8xl mb-8 text-[#63e]">Aniket Kumar</p>
+            <p className="text-7xl min-[380px]:text-[86px] mb-8 text-[#63e] font-bold">
+              Aniket Kumar
+            </p>
             <h3 className="text-3xl mb-4">
               And I'm a{" "}
               <span
@@ -135,22 +153,22 @@ export default function Example() {
               href="https://www.facebook.com/profile.php?id=100055321989829"
               target={"_blank"}
             >
-              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-facebook-f mr-3 mb-3 min-[410px]:mr-6 min-[410px]:mb-6"></i>
             </a>
             <a href="https://twitter.com/AniketK66947378" target={"_blank"}>
-              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter mr-3 mb-3 min-[410px]:mr-6 min-[410px]:mb-6"></i>
             </a>
             <a
               href="https://www.instagram.com/aniket28_kumar/"
               target={"_blank"}
             >
-              <i className="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram mr-3 mb-3 min-[410px]:mr-6 min-[410px]:mb-6"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/aniket-kumar-1b01a3237/"
               target={"_blank"}
             >
-              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-linkedin-in mr-3 mb-3 min-[410px]:mr-6 min-[410px]:mb-6"></i>
             </a>
             <a href="https://github.com/Aniket2805" target={"_blank"}>
               <i class="fa-brands fa-github"></i>
@@ -158,8 +176,8 @@ export default function Example() {
           </div>
           <div className="cv">
             <a
-              href="/Resume.pdf"
-              className="bg-black px-6 py-4 rounded-3xl shadow-[1px_3px_5px_rgb(242,242,242)]"
+              href={Resume}
+              className="bg-black px-6 py-4 rounded-3xl shadow-[1px_3px_5px_rgb(242,242,242)] ease-in-out duration-200 hover:shadow-[1px_3px_10px_rgb(242,242,242)]"
             >
               <i className="fa-solid fa-circle-arrow-down mr-2"></i>
               Download CV
@@ -169,7 +187,7 @@ export default function Example() {
         <div className="flex justify-center mt-6 md:mt-0">
           <img
             src={Formal}
-            className="object-contain h-[30rem] w-[18rem] bg-[#63e] rounded-2xl shadow-[30px_30px_0px_rgb(242,242,242)] up-down"
+            className="object-contain h-[30rem] w-[18rem] bg-[#63e] rounded-2xl shadow-[20px_20px_0px_rgb(242,242,242)] min-[400px]:shadow-[30px_30px_0px_rgb(242,242,242)] up-down"
           ></img>
         </div>
       </div>

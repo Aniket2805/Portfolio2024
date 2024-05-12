@@ -3,6 +3,7 @@ import Fashion from "./files/fashion.jpg";
 import Flixpedia from "./files/flixpedia.jpg";
 import VideoVerse from "./files/videoverse.jpg";
 import Ecommerce from "./files/ecommerse.jpg";
+import { FaCode } from "react-icons/fa6";
 const Projects = () => {
   return (
     <div className="text-white dancing-script-500 max-w-7xl mx-auto p-6 lg:px-8">
@@ -23,9 +24,14 @@ const Projects = () => {
               FashionFusion is a sleek and user-friendly ecommerce website that
               offers a wide range of trendy clothing.
             </p>
-            <a href="https://shopswift2024.netlify.app/" target="_blank">
-              <i className="fa-solid fa-arrow-up-right-from-square rounded-full p-3 lg:p-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
-            </a>
+            <div className="flex">
+              <a href="https://github.com/Aniket2805/ShopSwift" target="_blank">
+                <i className="fa-solid fa-code rounded-[100%] mr-3 p-3 lg:px-[19px] lg:py-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
+              </a>
+              <a href="https://shopswift2024.netlify.app/" target="_blank">
+                <i className="fa-solid fa-arrow-up-right-from-square rounded-full p-3 lg:p-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div className="data rounded-2xl relative overflow-hidden shadow-[-10px_-10px_0px_rgb(242,242,242)] sm:shadow-[20px_-20px_0px_rgb(242,242,242)]">
@@ -43,9 +49,14 @@ const Projects = () => {
               comprehensive information on films, including cast and crew
               details, ratings,etc.
             </p>
-            <a href="https://flixpedia.netlify.app/" target="_blank">
-              <i className="fa-solid fa-arrow-up-right-from-square rounded-full p-3 lg:p-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
-            </a>
+            <div>
+              <a href="https://github.com/Aniket2805/FlixPedia" target="_blank">
+                <i className="fa-solid fa-code rounded-[100%] mr-3 p-3 lg:px-[19px] lg:py-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
+              </a>
+              <a href="https://flixpedia.netlify.app/" target="_blank">
+                <i className="fa-solid fa-arrow-up-right-from-square rounded-full p-3 lg:p-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div className="data rounded-2xl relative overflow-hidden shadow-[10px_10px_0px_rgb(242,242,242)] sm:shadow-[-20px_20px_0px_rgb(242,242,242)]">
@@ -62,9 +73,17 @@ const Projects = () => {
               Discover and play an extensive range of videos, from entertaining
               vlogs to informative tutorials, all in one user-friendly hub.
             </p>
-            <a href="https://explorevideoverse.netlify.app/" target="_blank">
-              <i className="fa-solid fa-arrow-up-right-from-square rounded-full p-3 lg:p-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
-            </a>
+            <div>
+              <a
+                href="https://github.com/Aniket2805/FashionFusion"
+                target="_blank"
+              >
+                <i className="fa-solid fa-code rounded-[100%] mr-3 p-3 lg:px-[19px] lg:py-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
+              </a>
+              <a href="https://explorevideoverse.netlify.app/" target="_blank">
+                <i className="fa-solid fa-arrow-up-right-from-square rounded-full p-3 lg:p-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div className="data rounded-2xl relative overflow-hidden shadow-[10px_10px_0px_rgb(242,242,242)] sm:shadow-[20px_20px_0px_rgb(242,242,242)]">
@@ -81,9 +100,17 @@ const Projects = () => {
               Discover and play an extensive range of videos, from entertaining
               vlogs to informative tutorials, all in one user-friendly hub.
             </p>
-            <a href="https://fashionfusion2023.netlify.app/" target="_blank">
-              <i className="fa-solid fa-arrow-up-right-from-square rounded-full p-3 lg:p-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
-            </a>
+            <div>
+              <a
+                href="https://github.com/Aniket2805/FashionFusion"
+                target="_blank"
+              >
+                <i className="fa-solid fa-code rounded-[100%] mr-3 p-3 lg:px-[19px] lg:py-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
+              </a>
+              <a href="https://fashionfusion2023.netlify.app/" target="_blank">
+                <i className="fa-solid fa-arrow-up-right-from-square rounded-full p-3 lg:p-5 text-lg lg:text-xl bg-white text-[#63e]"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

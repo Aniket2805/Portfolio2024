@@ -236,7 +236,7 @@ export default function Example() {
         </div>
         <div
           className="flex justify-center mt-6 md:mt-0"
-          data-aos="fade-left"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <img

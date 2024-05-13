@@ -26,7 +26,7 @@ const Skills = () => {
       <div className="grid grid-cols-1 min-[430px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 justify-center">
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-100 shadow-[8px_6px_0px_#63e] mb-4">
@@ -35,7 +35,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-100 shadow-[8px_6px_0px_#63e] mb-4">
@@ -44,7 +44,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-100 shadow-[8px_6px_0px_#63e] mb-4">
@@ -53,7 +53,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-100 shadow-[8px_6px_0px_#63e] mb-4">
@@ -62,7 +62,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="border-gray-400 rounded-xl p-4 bg-gray-900 shadow-[8px_6px_0px_rgb(242,242,242)] mb-4">
@@ -71,7 +71,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-100 shadow-[8px_6px_0px_#63e] mb-4">
@@ -80,7 +80,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-900 shadow-[8px_6px_0px_rgb(242,242,242)] mb-4">
@@ -89,7 +89,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-900 shadow-[8px_6px_0px_rgb(242,242,242)] mb-4">
@@ -98,7 +98,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-900 shadow-[8px_6px_0px_rgb(242,242,242)] mb-4">
@@ -107,7 +107,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-100 shadow-[8px_6px_0px_#63e] mb-4">
@@ -116,7 +116,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-900 shadow-[8px_6px_0px_rgb(242,242,242)] mb-4">
@@ -125,7 +125,7 @@ const Skills = () => {
         </div>
         <div
           className="flex justify-center items-center"
-          data-aos="zoom-out-up"
+          data-aos="zoom-in"
           data-aos-duration="700"
         >
           <div className="rounded-xl p-4 bg-gray-900 shadow-[8px_6px_0px_rgb(242,242,242)] mb-4">

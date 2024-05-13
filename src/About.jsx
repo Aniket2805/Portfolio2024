@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div
         className="aboutme text-lg"
-        data-aos="fade-left"
+        data-aos="zoom-in"
         data-aos-duration="700"
       >
         <h1 className="text-6xl min-[400px]:text-7xl mb-6 font-extrabold">

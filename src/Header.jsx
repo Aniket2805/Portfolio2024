@@ -174,7 +174,7 @@ export default function Example() {
           </div>
         </Dialog.Panel>
       </Dialog>
-      <div className="grid grid-cols-1 md:grid-cols-2 dancing-script-500 max-w-7xl mx-auto my-8 p-6 lg:px-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 dancing-script-500 max-w-7xl mx-auto min[500px]:my-8 p-6 lg:px-8">
         <div
           className="text-white"
           data-aos="fade-right"

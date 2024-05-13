@@ -2,15 +2,26 @@ import React from "react";
 import Aniket from "./files/aniket.png";
 const About = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-white dancing-script-500 max-w-7xl mx-auto mt-16 p-6 lg:px-8">
-      <div className="hidden md:flex justify-center items-center">
+    <div
+      id="about"
+      className="grid grid-cols-1 md:grid-cols-2 gap-4 text-white dancing-script-500 max-w-7xl mx-auto mt-16 p-6 lg:px-8"
+    >
+      <div
+        className="hidden md:flex justify-center items-center"
+        data-aos="fade-right"
+        data-aos-duration="700"
+      >
         <img
           src={Aniket}
           alt=""
           className="h-[25rem] bg-[#63e] rounded-3xl shadow-[8px_-16px_0px_rgb(242,242,242)] lg:shadow-[26px_-20px_0px_rgb(242,242,242)]"
         />
       </div>
-      <div className="aboutme text-lg">
+      <div
+        className="aboutme text-lg"
+        data-aos="fade-left"
+        data-aos-duration="700"
+      >
         <h1 className="text-6xl min-[400px]:text-7xl mb-6 font-extrabold">
           About <span className="text-[#63e]">Me</span>
         </h1>

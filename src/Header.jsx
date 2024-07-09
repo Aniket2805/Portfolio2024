@@ -13,7 +13,7 @@ export default function Example() {
   const el = React.useRef(null);
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Software Developer", "Front End Developer"],
+      strings: ["Software Developer", "Full Stack Developer"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
